@@ -2,13 +2,13 @@ if script_key then
 return
 end
 --Put Your Key Between ""
-script_key="";
+script_key="sqkRtMjTBmKoHobhFyAwXdMvxlIyTlHp";
 DelayTime = 300
 getgenv().FpsBoost = false
 getgenv().Setting = {
     ["Team"] = "Pirates", --Marines
     ["Webhook"] = {
-        ["Url"] = "",
+        ["Url"] = "https://discord.com/api/webhooks/1193328119931736165/vYA2Gx7VDwnkQP2MC8RXBYSQdySF6KpSTUB5KI98jmw4ptsKjnWJNMyvveFotEFyefVz",
         ["Enabled"] = true,
         ["Embed"] = true,
         ["StoredFruit"] = true,
