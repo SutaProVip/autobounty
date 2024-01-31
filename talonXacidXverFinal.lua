@@ -120,7 +120,7 @@ getgenv().Setting = {
         ["LowHealth"] = 4000,
     },
     ["Misc"] = {
-        ["AutoBuyRandomandStoreFruit"] = false,
+        ["AutoBuyRandomandStoreFruit"] = true,
         ["AutoBuySurprise"] = true,
     },
     ["Invisible"] = true, -- Self Explain
