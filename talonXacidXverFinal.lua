@@ -145,19 +145,19 @@ getgenv().Setting = {
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.3,
+                    ["HoldTime"] = 0,
                     ["TimeToNextSkill"] = 0,
                 },
             [ "X"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.3,
+                    ["HoldTime"] = 0,
                     ["TimeToNextSkill"] = 0,
                 },
 
                 ["C"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.3,
-                    ["TimeToNextSkill"] = 0,
+                    ["HoldTime"] = 0,
+                    ["TimeToNextSkill"] = 0.3,
                 },
             },
         },
