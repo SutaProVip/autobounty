@@ -41,7 +41,7 @@ getgenv().Setting = {
     ["In Combat Reset"] = true, -- Shouldn't Cause Much False Resets, Enable This Make Farming Much Faster
     ["BypassTP"] = {
         ["Enable"] = true,
-        ["Attempt"] = 2, -- Tween If Failed After x Attempts
+        ["Attempt"] = 5, -- Tween If Failed After x Attempts
     },
     ["DodgeSkill"] = true,
     ["SpectatePlayer"] = false,
@@ -104,7 +104,7 @@ getgenv().Setting = {
     },
     ["FpsLock"] = {
         ["Enable"] = true,
-        ["Cap"] = 30,
+        ["Cap"] = 60,
     },
     ["LockBounty"] = {
         ["Enable"] = true,
@@ -117,13 +117,13 @@ getgenv().Setting = {
         ["Enable"] = true,
         ["FastClick"] = true,
         ["OnLowHealthDisable"] = false,
-        ["LowHealth"] = 4000,
+        ["LowHealth"] = 5000,
     },
     ["Misc"] = {
         ["AutoBuyRandomandStoreFruit"] = true,
         ["AutoBuySurprise"] = true,
     },
-    ["Invisible"] = false, -- Self Explain
+    ["Invisible"] = true, -- Self Explain
     ["IgnoreFriends"] = false, --Server Hop When Your friends in your server
     ["GunMethod"] = false, --Use Melee,Gun Will automaticly disable invisible for things
     ["GunMethodSetting"] = {
@@ -141,7 +141,7 @@ getgenv().Setting = {
     ["Weapons"] = { -- Select Weapon, Self Explain
         ["Melee"] = {
             ["Enable"] = true,
-            ["Delay"] = 2.5,
+            ["Delay"] = 2.7,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
@@ -211,7 +211,7 @@ getgenv().Setting = {
         },
         ["Gun"] = {
             ["Enable"] = true,
-            ["Delay"] = 1.8,
+            ["Delay"] = 1.7,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
@@ -220,7 +220,7 @@ getgenv().Setting = {
                 },
                 ["X"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.1,
+                    ["HoldTime"] = 0,
                     ["TimeToNextSkill"] = 0,
                 },
             },
