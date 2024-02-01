@@ -104,7 +104,7 @@ getgenv().Setting = {
     },
     ["FpsLock"] = {
         ["Enable"] = true,
-        ["Cap"] = 40,
+        ["Cap"] = 30,
     },
     ["LockBounty"] = {
         ["Enable"] = true,
@@ -123,7 +123,7 @@ getgenv().Setting = {
         ["AutoBuyRandomandStoreFruit"] = true,
         ["AutoBuySurprise"] = true,
     },
-    ["Invisible"] = true, -- Self Explain
+    ["Invisible"] = false, -- Self Explain
     ["IgnoreFriends"] = false, --Server Hop When Your friends in your server
     ["GunMethod"] = false, --Use Melee,Gun Will automaticly disable invisible for things
     ["GunMethodSetting"] = {
@@ -211,7 +211,7 @@ getgenv().Setting = {
         },
         ["Gun"] = {
             ["Enable"] = true,
-            ["Delay"] = 1.7,
+            ["Delay"] = 1.8,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
