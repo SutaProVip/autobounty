@@ -57,7 +57,7 @@ getgenv().Setting = {
     },
     ["Auto Use Race V4"] = true, -- No Way you are turning this off
     ["Auto Dash If Mink V4"] = false,
-    ["Auto Dash If Ghoul V4"] = false,
+    ["Auto Dash If Ghoul V4"] = true,
     ["Spam All Skill On Race Transform V4"] = false,
     ["Failed To Load Data"] = {
         Rejoin = true,
