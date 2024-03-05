@@ -23,7 +23,7 @@ getgenv().Setting = {
         Enable = false,
         Mode = "Lite",--Lite: Just Lower Graphics, Full: Completely Make All Objects Transparent
     },
-    ["Hide Theme"] = false,
+    ["Hide Theme"] = true,
     ["3D Render Disable"] = true,
     ["Theme"] = {
         ["Name"] = "Old",--"Old", "Raiden","Ayaka","Hutao","Yelan","Miko","Nahida","Ganyu","Keqing","Nilou","Barbara","Zhongli","Layla"
@@ -41,7 +41,7 @@ getgenv().Setting = {
     ["In Combat Reset"] = true, -- Shouldn't Cause Much False Resets, Enable This Make Farming Much Faster
     ["BypassTP"] = {
         ["Enable"] = true,
-        ["Attempt"] = 5, -- Tween If Failed After x Attempts
+        ["Attempt"] = 3, -- Tween If Failed After x Attempts
     },
     ["DodgeSkill"] = true,
     ["SpectatePlayer"] = false,
@@ -108,7 +108,7 @@ getgenv().Setting = {
     },
     ["LockBounty"] = {
         ["Enable"] = true,
-        ["Cap"] = 30000000,
+        ["Cap"] = 24800000,
         ["Action"] = "Kick", -- Kick, Shutdown
         ["SendMessage"] = true,
         ["Message"] = "Congratulation You Have Reached The Bounty Cap MyBounty ������ ������ :fireworks: :fireworks: :fireworks:" -- It Will Replace MyBounty With Your Current Bounty, Add Ping Everyone If You Want
@@ -141,7 +141,7 @@ getgenv().Setting = {
     ["Weapons"] = { -- Select Weapon, Self Explain
         ["Melee"] = {
             ["Enable"] = true,
-            ["Delay"] = 2,
+            ["Delay"] = 3,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
@@ -162,7 +162,7 @@ getgenv().Setting = {
             },
         },
         ["Blox Fruit"] = {
-            ["Enable"] = true,
+            ["Enable"] = false,
             ["Delay"] = 1,
             ["Skills"] = {
                 ["Z"] = {
@@ -195,7 +195,7 @@ getgenv().Setting = {
         },
         ["Sword"] = {
             ["Enable"] = true,
-            ["Delay"] = 0.6,
+            ["Delay"] = 1.6,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
@@ -205,13 +205,13 @@ getgenv().Setting = {
                 ["X"] = {
                     ["Enable"] = true,
                     ["HoldTime"] = 0.3,
-                    ["TimeToNextSkill"] = 0.5,
+                    ["TimeToNextSkill"] = 0.3,
                 },
             },
         },
         ["Gun"] = {
             ["Enable"] = true,
-            ["Delay"] = 1.7,
+            ["Delay"] = 0.7,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
