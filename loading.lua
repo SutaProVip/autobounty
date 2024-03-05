@@ -56,8 +56,8 @@ getgenv().Setting = {
         NearPlayer = true, -- Only use If Near Player
     },
     ["Auto Use Race V4"] = true, -- No Way you are turning this off
-    ["Auto Dash If Mink V4"] = false,
-    ["Auto Dash If Ghoul V4"] = true,
+    ["Auto Dash If Mink V4"] = true,
+    ["Auto Dash If Ghoul V4"] = false,
     ["Spam All Skill On Race Transform V4"] = false,
     ["Failed To Load Data"] = {
         Rejoin = true,
