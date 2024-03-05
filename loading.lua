@@ -108,7 +108,7 @@ getgenv().Setting = {
     },
     ["LockBounty"] = {
         ["Enable"] = true,
-        ["Cap"] = 24800000,
+        ["Cap"] = 26800000,
         ["Action"] = "Kick", -- Kick, Shutdown
         ["SendMessage"] = true,
         ["Message"] = "Congratulation You Have Reached The Bounty Cap MyBounty ������ ������ :fireworks: :fireworks: :fireworks:" -- It Will Replace MyBounty With Your Current Bounty, Add Ping Everyone If You Want
