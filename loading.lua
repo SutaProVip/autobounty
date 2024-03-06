@@ -14,7 +14,7 @@ getgenv().Setting = {
         ["StoredFruit"] = true,
         ["ImageEmbed"] = true,
         ["CustomImage"] = true,
-        ["CustomImageUrl"] = "https://media.discordapp.net/attachments/1116732291411087394/1209504834294915102/420556416_351853717625894_1062944451475616809_n.png?ex=65e72a28&is=65d4b528&hm=8b97f17c53eed80f5c716b7961785ea11f95ff2387dcc177be3628aaab77afa7&", --Your Url
+        ["CustomImageUrl"] = "https://media.discordapp.net/attachments/1190798705859772476/1214851393853333504/AF56ED8B-460C-43F5-913C-1C7B94F83942.jpg?ex=65fa9d87&is=65e82887&hm=380a0d13ead5ff5f711aa2fb95df6d8a5ea43ab250cc29ec5411485433bfa9d5&", --Your Url
         ["OnServerHop"] = true,
         ["BountyChanged"] = true,
     }, 
@@ -94,7 +94,7 @@ getgenv().Setting = {
     ["ChatKill"] = {
         Enable = true,
         Chat = {
-            "anh chi muon nhin thay em tu phia sau thoi.!?","anh rat rat thich em.!?","anh y..yeu em.!?"
+            "anh chi muon nhin thay em tu phia sau thoi.!?","I Love U Do","anh y..yeu em.!?"
         },
     },
     ["Mention"] = {
@@ -145,7 +145,7 @@ getgenv().Setting = {
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 1,
+                    ["HoldTime"] = 0,
                     ["TimeToNextSkill"] = 0,
                 },
             [ "X"] = {
@@ -162,7 +162,7 @@ getgenv().Setting = {
             },
         },
         ["Blox Fruit"] = {
-            ["Enable"] = true,
+            ["Enable"] = false,
             ["Delay"] = 1.7,
             ["Skills"] = {
                 ["Z"] = {
@@ -194,7 +194,7 @@ getgenv().Setting = {
             },
         },
         ["Sword"] = {
-            ["Enable"] = false,
+            ["Enable"] = true,
             ["Delay"] = 1.6,
             ["Skills"] = {
                 ["Z"] = {
