@@ -56,7 +56,7 @@ getgenv().Setting = {
         NearPlayer = true, -- Only use If Near Player
     },
     ["Auto Use Race V4"] = true, -- No Way you are turning this off
-    ["Auto Dash If Mink V4"] = true,
+    ["Auto Dash If Mink V4"] = false,
     ["Auto Dash If Ghoul V4"] = false,
     ["Spam All Skill On Race Transform V4"] = false,
     ["Failed To Load Data"] = {
@@ -108,7 +108,7 @@ getgenv().Setting = {
     },
     ["LockBounty"] = {
         ["Enable"] = true,
-        ["Cap"] = 26800000,
+        ["Cap"] = 30000000,
         ["Action"] = "Kick", -- Kick, Shutdown
         ["SendMessage"] = true,
         ["Message"] = "Congratulation You Have Reached The Bounty Cap MyBounty ������ ������ :fireworks: :fireworks: :fireworks:" -- It Will Replace MyBounty With Your Current Bounty, Add Ping Everyone If You Want
@@ -145,7 +145,7 @@ getgenv().Setting = {
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0,
+                    ["HoldTime"] = 1,
                     ["TimeToNextSkill"] = 0,
                 },
             [ "X"] = {
@@ -162,8 +162,8 @@ getgenv().Setting = {
             },
         },
         ["Blox Fruit"] = {
-            ["Enable"] = false,
-            ["Delay"] = 1,
+            ["Enable"] = true,
+            ["Delay"] = 2,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
@@ -194,7 +194,7 @@ getgenv().Setting = {
             },
         },
         ["Sword"] = {
-            ["Enable"] = true,
+            ["Enable"] = false,
             ["Delay"] = 1.6,
             ["Skills"] = {
                 ["Z"] = {
