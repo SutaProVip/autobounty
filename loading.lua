@@ -56,7 +56,7 @@ getgenv().Setting = {
         NearPlayer = true, -- Only use If Near Player
     },
     ["Auto Use Race V4"] = true, -- No Way you are turning this off
-    ["Auto Dash If Mink V4"] = false,
+    ["Auto Dash If Mink V4"] = true,
     ["Auto Dash If Ghoul V4"] = false,
     ["Spam All Skill On Race Transform V4"] = false,
     ["Failed To Load Data"] = {
@@ -94,7 +94,7 @@ getgenv().Setting = {
     ["ChatKill"] = {
         Enable = true,
         Chat = {
-            "anh chi muon nhin thay em tu phia sau thoi.!?","I Love U Do","anh y..yeu em.!?"
+            "Free Bounty xD",":>",":3"
         },
     },
     ["Mention"] = {
@@ -145,7 +145,7 @@ getgenv().Setting = {
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0,
+                    ["HoldTime"] = 1,
                     ["TimeToNextSkill"] = 0,
                 },
             [ "X"] = {
@@ -162,12 +162,12 @@ getgenv().Setting = {
             },
         },
         ["Blox Fruit"] = {
-            ["Enable"] = false,
-            ["Delay"] = 1.7,
+            ["Enable"] = true,
+            ["Delay"] = 0.2,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.2,
+                    ["HoldTime"] = 0,
                     ["TimeToNextSkill"] = 0,
                 },
                 ["X"] = {
@@ -177,7 +177,7 @@ getgenv().Setting = {
                 },
 
                 ["C"] = {
-                    ["Enable"] = true,
+                    ["Enable"] = false,
                     ["HoldTime"] = 0,
                     ["TimeToNextSkill"] = 0,
                 },
@@ -187,7 +187,7 @@ getgenv().Setting = {
                     ["TimeToNextSkill"] = 0.2,
                 },
                 ["F"] = {
-                    ["Enable"] = true,
+                    ["Enable"] = false,
                     ["HoldTime"] = 0,
                     ["TimeToNextSkill"] = 0,
                 },
@@ -199,13 +199,13 @@ getgenv().Setting = {
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.1,
+                    ["HoldTime"] = 0.7,
                     ["TimeToNextSkill"] = 0,
                 },
                 ["X"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.3,
-                    ["TimeToNextSkill"] = 0.3,
+                    ["HoldTime"] = 0,
+                    ["TimeToNextSkill"] = 0,
                 },
             },
         },
