@@ -141,11 +141,11 @@ getgenv().Setting = {
     ["Weapons"] = { -- Select Weapon, Self Explain
         ["Melee"] = {
             ["Enable"] = true,
-            ["Delay"] = 3,
+            ["Delay"] = 1,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 1,
+                    ["HoldTime"] = 0.5,
                     ["TimeToNextSkill"] = 0,
                 },
             [ "X"] = {
@@ -162,7 +162,7 @@ getgenv().Setting = {
             },
         },
         ["Blox Fruit"] = {
-            ["Enable"] = true,
+            ["Enable"] = false,
             ["Delay"] = 0.2,
             ["Skills"] = {
                 ["Z"] = {
@@ -195,11 +195,11 @@ getgenv().Setting = {
         },
         ["Sword"] = {
             ["Enable"] = true,
-            ["Delay"] = 1.6,
+            ["Delay"] = 0.6,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0,
+                    ["HoldTime"] = 0.25,
                     ["TimeToNextSkill"] = 0,
                 },
                 ["X"] = {
@@ -210,7 +210,7 @@ getgenv().Setting = {
             },
         },
         ["Gun"] = {
-            ["Enable"] = true,
+            ["Enable"] = false,
             ["Delay"] = 0.7,
             ["Skills"] = {
                 ["Z"] = {
