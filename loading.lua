@@ -1,3 +1,6 @@
+spawn(function()
+        require(game.ReplicatedStorage.Notification).new("<Color=Yellow> W-azure ngu lồn săn bounty <Color=/>"):Display()
+end)
 if script_key then
 return
 end
@@ -20,13 +23,13 @@ getgenv().Setting = {
     }, 
     ["Panel"] = false,
     ["FpsBoost"] = {
-        Enable = false,
+        Enable = true,
         Mode = "Lite",--Lite: Just Lower Graphics, Full: Completely Make All Objects Transparent
     },
     ["Hide Theme"] = true,
-    ["3D Render Disable"] = true,
+    ["3D Render Disable"] = false,
     ["Theme"] = {
-        ["Name"] = "Old",--"Old", "Raiden","Ayaka","Hutao","Yelan","Miko","Nahida","Ganyu","Keqing","Nilou","Barbara","Zhongli","Layla"
+        ["Name"] = "Raiden",--"Old", "Raiden","Ayaka","Hutao","Yelan","Miko","Nahida","Ganyu","Keqing","Nilou","Barbara","Zhongli","Layla"
         ["Custom"] = {
             ["Enable"] = false,
             ['char_size'] = UDim2.new(0.668, 0, 1.158, 0),
@@ -41,7 +44,7 @@ getgenv().Setting = {
     ["In Combat Reset"] = true, -- Shouldn't Cause Much False Resets, Enable This Make Farming Much Faster
     ["BypassTP"] = {
         ["Enable"] = true,
-        ["Attempt"] = 3, -- Tween If Failed After x Attempts
+        ["Attempt"] = 5, -- Tween If Failed After x Attempts
     },
     ["DodgeSkill"] = true,
     ["SpectatePlayer"] = false,
@@ -56,7 +59,7 @@ getgenv().Setting = {
         NearPlayer = true, -- Only use If Near Player
     },
     ["Auto Use Race V4"] = true, -- No Way you are turning this off
-    ["Auto Dash If Mink V4"] = true,
+    ["Auto Dash If Mink V4"] = false,
     ["Auto Dash If Ghoul V4"] = false,
     ["Spam All Skill On Race Transform V4"] = false,
     ["Failed To Load Data"] = {
@@ -94,8 +97,7 @@ getgenv().Setting = {
     ["ChatKill"] = {
         Enable = true,
         Chat = {
-            "Free Bounty xD",":>",":3"
-        },
+            "yayyy","i is the best","i love u so much"},
     },
     ["Mention"] = {
         ["Enable"] = false,
@@ -104,27 +106,27 @@ getgenv().Setting = {
     },
     ["FpsLock"] = {
         ["Enable"] = true,
-        ["Cap"] = 60,
+        ["Cap"] = 30,
     },
     ["LockBounty"] = {
         ["Enable"] = true,
         ["Cap"] = 30000000,
         ["Action"] = "Kick", -- Kick, Shutdown
         ["SendMessage"] = true,
-        ["Message"] = "Congratulation You Have Reached The Bounty Cap MyBounty ������ ������ :fireworks: :fireworks: :fireworks:" -- It Will Replace MyBounty With Your Current Bounty, Add Ping Everyone If You Want
+        ["Message"] = "Congratulation You Have Reached The Bounty Cap MyBounty 🔥 🔥 :fireworks: :fireworks: :fireworks:" -- It Will Replace MyBounty With Your Current Bounty, Add Ping Everyone If You Want
     },
     ["Click"] = {
         ["Enable"] = true,
         ["FastClick"] = true,
         ["OnLowHealthDisable"] = false,
-        ["LowHealth"] = 5000,
+        ["LowHealth"] = 3000,
     },
     ["Misc"] = {
         ["AutoBuyRandomandStoreFruit"] = true,
         ["AutoBuySurprise"] = true,
     },
-    ["Invisible"] = true, -- Self Explain
-    ["IgnoreFriends"] = false, --Server Hop When Your friends in your server
+    ["Invisible"] = false, -- Self Explain
+    ["IgnoreFriends"] = true, --Server Hop When Your friends in your server
     ["GunMethod"] = false, --Use Melee,Gun Will automaticly disable invisible for things
     ["GunMethodSetting"] = {
         LessSusKillTest=true,
@@ -137,7 +139,7 @@ getgenv().Setting = {
         CustomIcon = false,
         Image = "sticker.png", -- The Path Is: W-azure/AutoBounty/Notify
     },
-    ["SpamSkill"] = true, -- Will use all skills as fast as possbile ignore holding skills
+    ["SpamSkill"] = false, -- Will use all skills as fast as possbile ignore holding skills
     ["Weapons"] = { -- Select Weapon, Self Explain
         ["Melee"] = {
             ["Enable"] = true,
@@ -145,7 +147,7 @@ getgenv().Setting = {
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0.5,
+                    ["HoldTime"] = 0.8,
                     ["TimeToNextSkill"] = 0,
                 },
             [ "X"] = {
@@ -157,17 +159,17 @@ getgenv().Setting = {
                 ["C"] = {
                     ["Enable"] = true,
                     ["HoldTime"] = 0,
-                    ["TimeToNextSkill"] = 0.3,
+                    ["TimeToNextSkill"] = 0,
                 },
             },
         },
         ["Blox Fruit"] = {
             ["Enable"] = false,
-            ["Delay"] = 0.2,
+            ["Delay"] = 2,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0,
+                    ["HoldTime"] = 2,
                     ["TimeToNextSkill"] = 0,
                 },
                 ["X"] = {
@@ -177,14 +179,14 @@ getgenv().Setting = {
                 },
 
                 ["C"] = {
-                    ["Enable"] = false,
+                    ["Enable"] = true,
                     ["HoldTime"] = 0,
                     ["TimeToNextSkill"] = 0,
                 },
                 ["V"] = {
-                    ["Enable"] = false,
+                    ["Enable"] = true,
                     ["HoldTime"] = 0,
-                    ["TimeToNextSkill"] = 0.2,
+                    ["TimeToNextSkill"] = 0,
                 },
                 ["F"] = {
                     ["Enable"] = false,
@@ -195,7 +197,7 @@ getgenv().Setting = {
         },
         ["Sword"] = {
             ["Enable"] = true,
-            ["Delay"] = 0.6,
+            ["Delay"] = 0.5,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
@@ -210,8 +212,8 @@ getgenv().Setting = {
             },
         },
         ["Gun"] = {
-            ["Enable"] = false,
-            ["Delay"] = 0.7,
+            ["Enable"] = true,
+            ["Delay"] = 0.5,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
